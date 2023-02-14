@@ -5,3 +5,4 @@ print(dados)
 
 idade = int(input('Digite sua idade: '))
 print(idade)
+print(type(idade))
