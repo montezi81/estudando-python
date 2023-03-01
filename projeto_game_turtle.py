@@ -6,13 +6,13 @@ t.speed(1)
 jogo = input(print('Olá desje começar o jogo S ou N ?'))
 if jogo == 'S':
     while True:
-        frente_tras = input(print('Deseja ir para frente(F) ou para trás(T)?')).upper
+        frente_tras = input(print('Deseja ir para frente(F) ou para trás(T)?'))
         if frente_tras == 'F':
             t.forward(90)
         else:
             t.backward(90)
 
-        angulo = input(print('Qual angulo deseja mover esquerda(E) ou direita(D)?')).upper
+        angulo = input(print('Qual angulo deseja mover esquerda(E) ou direita(D)?'))
         if angulo == 'E':
             t.left(90)
         else:
